@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+#ws {
+    width: 100%;
+    padding: 10px;
+    background: rgba(200, 200, 200, 1);
+    border-bottom: 1px solid #999;
+}
+
+#ws textarea {
+    width: 100%;
+    height: 200px;
+}
+
+#ws button {
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    background: #08f;
+    color: #fff;
+
+}
+
+#output {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+}
