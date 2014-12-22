@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ctrl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(200, 200, 200, 0.6);
+}
+
+#area {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.switch {
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 4px;
+    background: #fff;
+    color: #08f;
+    outline: none;
+}

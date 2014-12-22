@@ -1,0 +1,12 @@
+<h3 rc-out="title"></h3>
+<ul>
+	<li rc-repeat="users[user]">
+		{{user.name}} <b>{{user.age}}</b>
+	</li>
+</ul>
+
+<table>
+	<tr rc-div="numbers/3 as part">
+		<td rc-repeat="part[number]" rc-out="number"></td>
+	</tr>
+</table>
